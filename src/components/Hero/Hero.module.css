@@ -1,4 +1,4 @@
-@import "../../../var.css";
+@import "../../var.css";
 
 .container {
     position: relative;
@@ -33,6 +33,7 @@
 .description {
     font-size: 30px;
     font-family: var(--font-roboto);
+    color: white;
     margin: 52px;
 }
 
@@ -71,13 +72,24 @@
 
 .topBlur {
     position: absolute;
-    width: 50vw;
+    width: 70vw;
     height: 50vw;
     min-width: 350px;
     min-height: 350px;
     top: -128px;
-    left: 10vw;
-    border: 764px;
+    right: -25vw;
+border-radius:  764px;
     background: rgba(25, 55, 109, 0.7);
     filter: blur(100px);
+    z-index: 0;
+}
+
+@media screen and (max-widtch: 830px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .content {
+        align-items: center;
+    }
 }
