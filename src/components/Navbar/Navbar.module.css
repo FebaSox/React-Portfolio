@@ -75,3 +75,9 @@
     z-index: 1;
   }
 }
+
+@media screen and (min-width:831px) {
+  .menuBtn{
+    display: none;
+  }
+}

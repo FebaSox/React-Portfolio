@@ -32,7 +32,7 @@ export const About = () => {
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
-                        <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor Icon"/>
+                        <img src={getImageUrl("about/uiIcon.png")} alt="Cursor Icon"/>
                         <div className={styles.aboutItemText}>
                             <h3>Command Line</h3>
                             <p>
