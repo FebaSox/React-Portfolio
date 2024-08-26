@@ -1,26 +1,26 @@
 [
     {
-      "title": "Project A",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "title": "Memmory Card Game",
+      "imageSrc": "projects/memcard.png",
+      "description": "This is a project made to keep track of how many cards you get in a row and try to reach the high score.",
       "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com/",
-      "source": "https://www.github.com/"
+      "demo": "https://taupe-pie-c693cb.netlify.app/",
+      "source": "https://github.com/FebaSox/memCardProjTEST"
     },
     {
-      "title": "Project B",
+      "title": "Studio Ghibli API",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "description": "This is a project made to search and filter through all the Ghibli films by Date, Rating, and Director.",
       "skills": ["React", "Express", "Node", "Sass"],
       "demo": "https://www.example.com/",
-      "source": "https://www.github.com/"
+      "source": "https://github.com/FebaSox/animeAPI"
     },
     {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "title": "Pokedex API",
+      "imageSrc": "projects/pokedex.png",
+      "description": "This is a project made to filter and search through a Pokemon GO database.",
       "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com/",
-      "source": "https://www.github.com/"
+      "demo": "https://pokegoapi.netlify.app/",
+      "source": "https://github.com/FebaSox/Pokedex-API"
     }
   ]
