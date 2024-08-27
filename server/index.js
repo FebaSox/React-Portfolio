@@ -1,10 +1,22 @@
 const express = require('express');
 const app = express();
+const PORT = process.env.PORT || 5151
 
-app.get('/', (req, res) => {
-    res.send("Seba's portfolio");
+app.get('/api/SebasPortfolio', (req, res) => {
+    res.send(SebasPortfolio);
 })
 
-app.listen(8080, () => {
-    console.log('server listening on port 5173');
+app.listen(PORT, () => {
+    console.log('Server listening on Port: 5151');
 })
+
+const SebasPortfolio = [
+    {
+        name: "Laptop",
+        price: 500,
+    },
+    {
+        name: "Desktop",
+        price: 700,
+    },
+];
