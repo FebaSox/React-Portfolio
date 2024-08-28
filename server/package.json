@@ -4,7 +4,9 @@
   "description": "server side/express for portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon app" 
   },
   "author": "Seba Fox",
   "license": "ISC",
