@@ -42,4 +42,6 @@ import { Contact } from "./components/Contact/Contact";
   );
 }
 
+console.log("One day, or Day one?");
+
 export default App;
