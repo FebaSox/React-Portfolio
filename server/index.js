@@ -1,14 +1,12 @@
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT || 5151
-
-app.get('/api/SebasPortfolio', (req, res) => {
-    res.send(SebasPortfolio);
-})
+const PORT = process.env.PORT || 5173
 
 app.listen(PORT, () => {
-    console.log('Server listening on Port: 5151');
+    console.log('Server listening on Port: 5173');
 })
+
+app.use(express.static("dist"));
 
 const SebasPortfolio = [
     {
@@ -20,3 +18,7 @@ const SebasPortfolio = [
         price: 700,
     },
 ];
+
+app.get('/api/SebasPortfolio', (req, res) => {
+    res.send(SebasPortfolio);
+})
